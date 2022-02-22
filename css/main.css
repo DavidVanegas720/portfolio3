@@ -40,6 +40,51 @@ body{
     margin-top: 10px;
     font-weight: bold;
 }
+/* -------menu----- */
+.header--nav .nav__input{     /* ocualtar input checked*/
+    display: none;
+}
+
+.header--nav ul{
+    background-color: var(--backgroud-color);
+    border: 1px solid #fff;
+    border-radius: 8px;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+     left: 60px;;
+    text-align: center;
+    display: none;
+}
+.header--nav ul li {
+    /* border: 1px solid wheat; */
+    /* border-radius: 8px; */
+    /* padding: 18px; */
+    width: 100%;
+    list-style: none;
+    font-size: 18px;
+    
+}
+.nav__input:checked + .ul{
+    display: block;
+}
+.header--nav ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 18px;
+    width: 100%;
+    color: var(--lirycs);
+}
+.header--nav ul li a:hover{
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 25px;
+    color: var(--buttons);
+    transition: easy all  0.6s ;
+
+}
 .header--nav .nav--icon-bars{
     width: 30px;
     margin-right: 15px;
