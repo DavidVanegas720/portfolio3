@@ -1,0 +1,143 @@
+:root{
+    --backgroud-color: #22252C;
+    --container: #3F3250;
+    --buttons: #E14658;
+    --lirycs: #fff;
+    --letter: #C0B3A0;
+    --font-family:'Georama', sans-serif;
+}
+
+
+/* -------borders-------------- */
+
+.container-main{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--backgroud-color);
+    color: var(--lirycs);
+    font-family: var(--font-family);
+}
+
+.container--header{
+    
+    width: 100%;
+    height: 100vh;
+}
+
+.header--nav{
+    background-color: var(--container);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header--nav h2{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.header--nav .nav--icon-bars{
+    width: 30px;
+    margin-right: 15px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(295deg) brightness(105%) contrast(101%);
+}
+
+/* ----------------------header--center-information----------------------------------------------------- */
+
+.header--center-information{
+    
+    background-color: var(--container);
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 150px;
+    width: 75%;
+    height: 400px;
+    position: relative;
+    box-shadow: 8px 5px 5px black;
+    
+}
+
+.center--information-avatar {
+    
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top:  -80px;
+    left: 35px;
+    z-index: 1;
+    /* display: none; */
+    
+}
+.center--information-avatar img{
+    width: 100%;
+    height: 100%;
+}
+
+.center--information-name{
+    
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    top: 180px;
+    left: 24px;
+    /* display: none; */
+}
+
+.center--information-social{
+    width: 80%;
+    height: 50px;
+    position: absolute;
+    top: 250px;
+    left: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.center--information-social img{
+    width: 40px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(295deg) brightness(105%) contrast(101%);
+    /* margin-right: 20px; */
+}
+
+/* ------------------------------information------------------------------------------------------------------ */
+
+.container--information{
+    width: 100%;
+    color: black;
+    height: 100%;
+    text-align: center;
+}
+
+.container--description{
+    border: 2px solid blue;
+    margin: 0 auto;
+    width: 300px;
+    height: 350px;
+}
+
+
+
+ .container--information-personal{
+    border: 1px solid red;
+    width: 300px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 15px;
+} 
+ .container--information-personal table{
+    border: 1px solid blue;
+    width: 100%;
+    
+} 
+
+
+
+
+
+
+
+
+
