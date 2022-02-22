@@ -6,6 +6,9 @@
     --letter: #C0B3A0;
     --font-family:'Georama', sans-serif;
 }
+body{
+    background-color: var(--backgroud-color);
+}
 
 
 /* -------borders-------------- */
@@ -106,13 +109,16 @@
 
 .container--information{
     width: 100%;
-    color: black;
-    height: 100%;
+    background-color: var(--backgroud-color);
+    height: 100vh;
     text-align: center;
+
 }
 
 .container--description{
-    border: 2px solid blue;
+    background-color: var(--container);
+    box-shadow: 8px 5px 5px black;
+    border-radius: 8px;
     margin: 0 auto;
     width: 300px;
     height: 350px;
@@ -121,7 +127,9 @@
 
 
  .container--information-personal{
-    border: 1px solid red;
+    background-color: var(--container);
+    box-shadow: 8px 5px 5px black;
+    border-radius: 8px;
     width: 300px;
     height: 350px;
     margin: 0 auto;
@@ -129,8 +137,9 @@
 } 
  .container--information-personal table{
     border: 1px solid blue;
+    font-weight: bold;
     width: 100%;
-    
+    height: 300px;
 } 
 
 
