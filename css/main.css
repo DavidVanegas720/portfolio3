@@ -267,6 +267,7 @@ body{
 .form--contact .textarea{
     border-radius: 8px;
     height: 200px;
+    width: 250px;
 }
 
 
