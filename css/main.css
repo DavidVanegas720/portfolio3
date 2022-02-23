@@ -7,7 +7,7 @@
     --font-family:'Georama', sans-serif;
 }
 body{
-    background-color: var(--backgroud-color);
+    background-color: var(--container);
 }
 
 
@@ -16,8 +16,8 @@ body{
 .container-main{
     width: 100%;
     height: 100vh;
-    background-color: var(--backgroud-color);
-    color: var(--lirycs);
+    background-color: var(--container);
+    color: var(--letter);
     font-family: var(--font-family);
 }
 
@@ -28,7 +28,7 @@ body{
 }
 
 .header--nav{
-    background-color: var(--container);
+    background-color: var(--backgroud-color);
     width: 100%;
     height: 50px;
     display: flex;
@@ -95,7 +95,7 @@ body{
 
 .header--center-information{
     
-    background-color: var(--container);
+    background-color: var(--backgroud-color);
     border-radius: 8px;
     margin: 0 auto;
     margin-top: 150px;
@@ -154,14 +154,14 @@ body{
 
 .container--information{
     width: 100%;
-    background-color: var(--backgroud-color);
+    background-color: var(--container);
     height: 100vh;
     text-align: center;
 
 }
 
 .container--description{
-    background-color: var(--container);
+    background-color: var(--backgroud-color);
     box-shadow: 8px 5px 5px black;
     border-radius: 8px;
     margin: 0 auto;
@@ -172,7 +172,7 @@ body{
 
 
  .container--information-personal{
-    background-color: var(--container);
+    background-color: var(--backgroud-color);
     box-shadow: 8px 5px 5px black;
     border-radius: 8px;
     width: 300px;
@@ -186,6 +186,54 @@ body{
     width: 100%;
     height: 300px;
 } 
+
+.container--icons-tools{
+    background-color: var(--backgroud-color);
+    width: 300px;
+    height: 350px;
+    box-shadow: 8px 5px 5px black;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    position: relative;
+}
+.container--icons-tools .logo{
+
+    font-weight: bold;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+.icons--tools{
+    margin-top: 50px;
+    width: 120px;
+    height: 120px;
+    
+}
+
+.icons--tools .icon-svg{
+    width: 100%;
+    height: 100%;
+}
+
+.icons--tools .html{
+    filter: invert(46%) sepia(74%) saturate(4766%) hue-rotate(348deg) brightness(93%) contrast(91%);
+}
+.icons--tools .css{
+    filter: invert(28%) sepia(58%) saturate(6329%) hue-rotate(227deg) brightness(91%) contrast(96%);
+}
+
+.icons--tools .js{
+    filter: invert(97%) sepia(28%) saturate(6966%) hue-rotate(321deg) brightness(113%) contrast(88%);
+}
+
+
+
 
 
 
